@@ -38,7 +38,7 @@ export default function Body() {
   ];
   return (
     <>
-      <div className="relative">
+      <div className="relative mt-10 md:m-0">
         <img src={banner} alt="Imagen Banner" />
         <img
           className="absolute top-0 right-10 h-[80%] m-7 "
@@ -46,7 +46,7 @@ export default function Body() {
           alt="Imagen Banner"
         />
       </div>
-      <ul className="flex flex-wrap m-20 justify-center items-center">
+      <ul className="flex flex-wrap m-5 justify-center items-center">
         {products.map((product, index) => {
           return (
             <li key={index} className="m-5">
